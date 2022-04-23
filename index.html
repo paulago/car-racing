@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>CAR RACING</h1>
+      <label for="participants">Elige el número de participantes:</label>
+      <select id="participants" name="participants" required>
+        <option value="">Selecciona un número</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <div>
+        <button id="start">Iniciar</button>
+      </div>
+      <div>
+        <button id="restart">Reiniciar</button>
+      </div>
+    </header>
+    <main>
+      <div id="race"></div>
+      <div id="raceInfo">
+        <!--     <h2>Results</h2> -->
+      </div>
+    </main>
+    <footer>
+      <p>Paula Gómez - 2022</p>
+    </footer>
+  </body>
+</html>
