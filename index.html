@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Car Racing</title>
+    <link rel="icon" href="car-racing-logo.png" type="image/gif" />
+    <!--Adjunto archivo CSS-->
     <link rel="stylesheet" href="style.css" />
+    <!--Agrego jQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <!--Adjunto archivo JS-->
     <script src="index.js" defer></script>
   </head>
   <body>
@@ -35,7 +39,13 @@
     <main>
       <div id="race"></div>
       <div id="raceInfo">
-        <!--     <h2>Results</h2> -->
+        <h2>Clasificación</h2>
+        <table id="classificationTable" name="classificationTable">
+          <tr>
+            <th>Posición</th>
+            <th>Coche</th>
+          </tr>
+        </table>
       </div>
     </main>
     <footer>

@@ -1,3 +1,9 @@
+# CAR RACING
+
+Carrera de coches con jquery.
+
+## Enunciado ejercicio
+
 Se trata de simular una carrera de coches siguiendo las siguientes instrucciones:
 
 1. Crear un desplegable para seleccionar el número de participantes. X
