@@ -67,7 +67,9 @@ $(document).ready(function () {
   $("#restart").click(function () {
     for (let i = 1; i <= players.length; i++) {
       $("#player" + i).css("marginLeft", "0px");
-      $("#classificationTable").find("tr:gt(0)").remove();
+      // Slice: El index de inicio (1) identifica la posición de uno de los elementos del conjunto; si se omite end, todos los elementos posteriores a este se incluirán en el resultado.
+      // Esto es para borrar las posiciones cuando los coches vuelvan a la posición inicial.
+      $("#classificationTable tr").slice(1).remove();
     }
     // Oculta el botón de reiniciar
     $("#restart").hide();
